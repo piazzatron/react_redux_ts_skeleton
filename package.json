@@ -1,0 +1,34 @@
+{
+  "name": "React_Redux_TypeScript_Skeleton",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Michael Piazza",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^16.0.22",
+    "@types/react-dom": "^16.0.3",
+    "axios": "^0.17.1",
+    "jest": "^22.0.4",
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0",
+    "react-form": "^2.12.1",
+    "redux": "^3.7.2"
+  },
+  "scripts": {
+    "build": "webpack && cp src/index.html src/dist",
+    "serve": "webpack-dev-server --content-base src/dist --hot --inline",
+    "deploy": "",
+    "lint": "tslint src/"
+  },
+  "devDependencies": {
+    "@types/react-form": "^1.3.0",
+    "awesome-typescript-loader": "^3.3.0",
+    "gh-pages": "^1.0.0",
+    "source-map-loader": "^0.2.3",
+    "typescript": "^2.6.1",
+    "tslint": "^5.9.1",
+    "ts-jest": "^22.4.1",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  }
+}
