@@ -1,11 +1,10 @@
 const path = require('path');
-console.log(path.resolve(__dirname, "src/dist"));
+
 module.exports = {
     entry: "./src/index.tsx",
     output: {
         filename: "bundle.js",
-        path: path.resolve(__dirname, "src/dist"),
-        publicPath:"/longboat/",
+        path: path.resolve(__dirname, "build"),
     },
 
     // Enable sourcemaps for debugging webpack's output.

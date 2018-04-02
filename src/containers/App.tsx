@@ -1,8 +1,8 @@
-import * as React from "react"
+import * as React from "react";
 
-const App = () => (
+const App = (): JSX.Element => (
     <div>
-        <h1> Welcome to the Skeleton App.</h1>
+        <h1> Welcome to the Skeleton App!!</h1>
     </div>
 );
 
